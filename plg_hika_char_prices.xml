@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="3.7" method="upgrade" group="hikashop">
+	<name>Hikashop Override to show prices of characteristics</name>
+    <version>1.0</version>
+    <creationDate>June 2017</creationDate>
+	<author>Solmedia</author>
+	<authorEmail>biuro@solmedia.pl</authorEmail>
+	<authorUrl>http://solmedia.pl</authorUrl>
+	<copyright>Copyright (C) 2017. All rights reserved.</copyright>
+    <license>GNU GPLv3</license>
+	<description>Hikashop Override to show prices of characteristics before selecting</description>
+	<files>
+		<filename plugin="plg_hika_char_prices">char_prices.php</filename>
+		<filename>plg_hika_char_prices.xml</filename>
+	</files>
+</extension>
